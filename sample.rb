@@ -1,4 +1,5 @@
-require File.dirname(__FILE__) + "/calc"
+$:.unshift File.dirname(__FILE__)
+require 'calc'
 
 Calc.create do
   set 10
